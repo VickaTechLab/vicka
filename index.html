@@ -12,7 +12,14 @@
     <header>
         <h1>Vicka Tech Lab</h1>
         <nav>
-        
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./sections/herramientas.html">Herramientas</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -24,50 +31,12 @@
             <p>La web está en construcción...</p>
         </article>
 
-        <section>
-            <h2>Aplico DOM</h2>
-            <form id="user-stories">
-                <label for="input-nombre-historia">Historia de usuario</label><br>
-                <input type="text" id="input-nombre-historia"></input><br>
-        
-                <label>
-                    <input class="boton" type="submit" value="Agregar">
-                </label>
-
-            </form> 
-        </section>
-
-        <section>
-            <h2>Temporizador</h2>
-            <p>Selecciona la opción "Iniciar temporizador" y te pediremos el tiempo en segundo para hacer la cuenta regresiva.</p>
-            <p>El temporizador recibe valores entre 0 y 60 para que no estés más de 1 minuto esperando a que termine la prueba :D</p>
-            <p class="temporizador" id="tiempo">0 segundos</p>
-            <button onclick="setTime()">Iniciar temporizador</button>
-        </section>
-
-        <section>
-            <h2>Tareas</h2>
-            <p>Selecciona la opción "Cargar tareas" y te pediremos que ingreses las tareas que necesitas realizar para cumplir tus objetivos. Para finalizar la carga de tareas, presiona ESC o Cancelar.</p>
-            <button onclick="setTareas()">Cargar tareas</button>            
-        </section>
-
-        <section>
-            <h2>Historias de Usuario</h2>
-            <p>Selecciona la opción "Agregar historia de usuario" para agregar una nueva historia de usuario al proyecto y "Ver historias de usuario".</p>
-            <div> 
-                <button onclick="crearUserStory()">Agregar historia de usuario</button>      
-                <button onclick="verUserStory()">Ver historia de usuario</button>
-            </div>  
-        </section>
-
     </main>
 
     <footer>
         <h2>Vicka Tech Lab</h2>
         <h3>Copyright © 2022 Vicka.tech.lab. Todos los derechos reservados.</h3>
     </footer>
- 
-    <script src="index.js">
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>

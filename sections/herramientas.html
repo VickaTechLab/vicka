@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Vicka</title>
+</head>
+<body>
+    <header>
+        <h1>Vicka Tech Lab</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="herramientas.html">Herramientas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>      
+            <h2>Temporizador</h2>
+            <p>El temporizador recibe valores entre 0 y 120 segundo.</p>
+           
+            <label for="input_segundos">Segundos</label>
+            <input type="text" id="input_segundos"></input>      
+                
+            <button type="button" onclick="setTime()">Iniciar temporizador</button>
+            <p class="error" id="errorTempo"></p>
+            
+            <p class="temporizador" id="tiempo">¡Esperando!</p>
+        </section> 
+
+        <section>
+            <h2>Historias de usuario y tareas</h2>
+            <form id="user-stories">
+                <label for="input-nombre-historia">Historia de usuario</label>
+                <input type="text" id="input-nombre-historia"></input>
+        
+                <label>
+                    <input class="boton" type="submit" value="Agregar">
+                </label>
+
+                <p id="tablero">¡Aquí vas a ver las hirtorias y las tareas!</p>
+
+            </form> 
+
+
+        </section>
+
+
+       
+    </main>
+    <footer>
+        <h2>Vicka Tech Lab</h2>
+        <h3>Copyright © 2022 Vicka.tech.lab. Todos los derechos reservados.</h3>
+    </footer>    
+    <script src="../javascripts/herramientas.js"></script>
+</body>
+</html>
