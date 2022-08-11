@@ -14,21 +14,38 @@ body{
 }
 
 header{
-    background-color: crimson;
+    background-color: #EC407A;
     font-size: large;
     display: grid;
     justify-content: center;
     height: 130px;
-    ul{
-        li{
-            list-style-type: none;
+    color: #512DA8;
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    
+                    font-size: 20px;
+                    font-weight:bolder;
+                    color: #512DA8;
+                    margin: 10px;
+                }
+            }
         }
     }
 }
 
 footer{
-    background-color: crimson;
+    background-color: #EC407A;
     margin-bottom: 0;
+    color: #512DA8;
     h2{
         font-size: 18px;
     }
@@ -83,8 +100,9 @@ button{
 }
 
 section{
-    background-color: gray;
-    border: white 5px solid;
+    background-color: #F3E5F5;
+    padding: 10px;
+    margin: 10px;
 }
 
 form{
