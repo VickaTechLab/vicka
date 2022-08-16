@@ -79,6 +79,14 @@ button {
   border-color: blue;
 }
 
+.boton-irregular {
+  width: 180px;
+  height: 126px;
+  background-color: crimson;
+  border-color: crimson;
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+}
+
 .temporizador {
   margin: 20px;
   padding: 20px;
