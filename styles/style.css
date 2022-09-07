@@ -48,7 +48,7 @@ footer h3 {
 }
 
 body {
-  background-color: #D3C54D;
+  background-color: #F0EEE9;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ button {
 }
 
 section {
-  background-color: #D3C54D;
+  background-color: #F0EEE9;
   padding: 10px;
   margin: 10px;
 }
@@ -120,6 +120,7 @@ form {
 label {
   padding: 4px;
   margin: 10px;
+  width: 100px;
 }
 
 input {

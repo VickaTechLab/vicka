@@ -86,6 +86,7 @@ const formulario = document.querySelector("#user-stories");
 const inputNombreHistorias = document.querySelector("#input-nombre-historia");
 const tableroHistorias = document.querySelector("#tablero");
 
+
 console.log(formulario, inputNombreHistorias);
 
 let historias = [];
@@ -112,6 +113,8 @@ const traerLocalStorage = (clave) => {
     const recorrerArray = JSON.parse(arrayLS);
     return recorrerArray;
 }
+
+formulario.addEventListener("onsubmit", this.onsubmit);
 
 formulario.onsubmit = (event) => {
     event.preventDefault();
